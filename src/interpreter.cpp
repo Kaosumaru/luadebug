@@ -18,6 +18,6 @@ bool interpret_string(const std::string& str)
 
 int main()  
 {
-    auto result = interpret_string("print(1)");
+    auto result = interpret_string("print(\"Hello world!\")");
     return 0;
 }
